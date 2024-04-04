@@ -1,0 +1,70 @@
+:root{
+    --first-color:#626262;
+    --second-color: #7D7D7D;
+    --decorative-color: #B4AD9E;
+    --hover-color: #03A9F4;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 905px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.topic{
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 400px;
+}
+.topic-li{
+    display: inline;
+    /* margin: 70px 100px; */
+}
+.topic-el{
+    color: var(--second-color);
+}
+.topic-el:hover{
+    color: var(--hover-color);
+}
+.card{
+    
+    width: 420px ;
+}
+.content-el{
+    display: inline;
+}
+.content-topic{
+    font-family: Ubuntu;
+    font-weight: 300px;
+    font-size: 14px;
+    color: var(--decorative-color);
+}
+.article{
+    font-family: Playfair Display; 
+    font-weight: 400px;
+    font-size: 30px;
+    color: var(--first-color);
+}
+.lorem{
+    font-family: Playfair Display; 
+    font-weight: 400px;
+    font-size: 14px;
+    color: var(--first-color);
+    /* width: 420px ;
+    height: 280px; */
+}
+.main-button{
+    font-family: Playfair Display; 
+    font-weight: 400px;
+    font-size: 14px;
+    color: var(--first-color);
+    background-color: #FFFFFF;
+    border: 1px solid var(--first-color);
+    padding: 30px 50px;
+    display: block;
+    margin: 0 auto;
+}
