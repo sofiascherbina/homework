@@ -31,7 +31,7 @@ a{
     color: var(--hover-color);
 }
 .card{
-    
+    height: 550px;
     width: 420px ;
 }
 .content-el{
