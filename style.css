@@ -30,7 +30,7 @@ a{
 .topic-el:hover{
     color: var(--hover-color);
 }
-.card{
+.container-card{
     height: 550px;
     width: 420px ;
 }
