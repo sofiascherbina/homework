@@ -6,23 +6,24 @@
 }
 ul{
     list-style: none;
+    padding-inline-start:0px;
 }
 a{
     text-decoration: none;
 }
 .container{
     max-width: 905px;
-    padding: 0 15px;
     margin: 0 auto;
 }
 .topic{
     font-family: Playfair Display;
     font-size: 14px;
     font-weight: 400px;
-}
-.topic-li{
-    display: inline;
-    /* margin: 70px 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 75px;
+    margin-bottom: 95px;
 }
 .topic-el{
     color: var(--second-color);
@@ -30,36 +31,38 @@ a{
 .topic-el:hover{
     color: var(--hover-color);
 }
+.card-ul{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 130px;
+    column-gap: 63px;  
+}
 .container-card{
     height: 550px;
     width: 420px ;
 }
-.content-el{
-    display: inline;
-}
 .content-topic{
     font-family: Ubuntu;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 14px;
     color: var(--decorative-color);
+    padding-top: 65px;
 }
 .article{
     font-family: Playfair Display; 
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 30px;
     color: var(--first-color);
 }
 .lorem{
     font-family: Playfair Display; 
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     color: var(--first-color);
-    /* width: 420px ;
-    height: 280px; */
 }
 .main-button{
     font-family: Playfair Display; 
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     color: var(--first-color);
     background-color: #FFFFFF;
@@ -67,4 +70,6 @@ a{
     padding: 30px 50px;
     display: block;
     margin: 0 auto;
+    margin-top: 115px;
+    margin-bottom:70px ;
 }
