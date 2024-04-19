@@ -1,0 +1,9 @@
+li{
+    list-style-type: none;
+}
+:root{
+    --first-color:#B6B6B6;
+    --second-color: #333333;
+    --third--color:#95E1D3;
+    --decorative-color:#F38181;
+}
