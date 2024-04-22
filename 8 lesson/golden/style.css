@@ -111,11 +111,10 @@ button{
     margin: 0 auto;
     padding: 20px 50px 30px;
     margin-top: 30px;
-    margin-bottom: 115px;
-
 }
 footer{
     padding-top: 85px;
+    padding-bottom: 115px;
     background-color: var(--main-color);
 }
 footer .title-content{
