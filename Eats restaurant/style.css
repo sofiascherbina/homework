@@ -1,0 +1,85 @@
+:root{
+    --dark-text:#252B42;
+    --hover-color:#FA4A0C;
+    --white-text:#FFFFFF;
+    --grey-text:#737373;
+}
+.container{
+    width: 1190px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    width: 585px;
+}
+.navigation-ul{
+    display: flex;
+    gap: 115px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px ;
+    color: var(--dark-text);
+}
+.nav-items:hover{
+    color: var(--hover-color);
+}
+.top{
+    height: 620px;
+    background-image: url(./img/Rectangle\ 48.png);
+    text-align: center;
+    padding-top: 70px;
+    color: var(--white-text);
+}
+.top h4{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.top h2{
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 75px;
+    margin: 0;
+}
+.top p{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+}
+.buttons-top{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 70px;
+    margin-bottom: 300px;
+}
+.butt-top-el{ 
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-text);
+    background-color: var(--hover-color);
+    border: none;
+    border-radius: 25px;
+    padding: 16px 0px;
+    width: 236px;
+    height: 68px;
+}
