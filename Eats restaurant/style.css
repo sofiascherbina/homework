@@ -5,9 +5,8 @@
     --grey-text:#737373;
 }
 .container{
-    width: 1190px;
+    width: 1140px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 a{
     text-decoration: none;
@@ -20,6 +19,7 @@ ul{
 .header-items{
     display: flex;
     justify-content: space-between;
+    gap: 465px;
     margin-top: 50px;
     margin-bottom: 40px;
 }
@@ -35,6 +35,7 @@ ul{
     font-weight: 600;
     font-size: 16px ;
     color: var(--dark-text);
+    margin-right: 170px;
 }
 .nav-items:hover{
     color: var(--hover-color);
@@ -67,7 +68,7 @@ ul{
 .buttons-top{
     display: flex;
     justify-content: center;
-    gap: 65px;
+    gap: 70px;
     margin-top: 70px;
     margin-bottom: 300px;
 }
