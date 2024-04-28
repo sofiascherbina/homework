@@ -1,11 +1,11 @@
 :root{
     --dark-text:#252B42;
-    --hover-color:#FA4A0C;
+    --decorative-color:#FA4A0C;
     --white-text:#FFFFFF;
     --grey-text:#737373;
 }
 .container{
-    width: 1140px;
+    width: 1440px;
     margin: 0 auto;
 }
 a{
@@ -23,64 +23,107 @@ ul{
     margin-top: 50px;
     margin-bottom: 40px;
 }
-.navigation{
-    display: flex;
-    align-items: center;
-    width: 585px;
-}
 .navigation-ul{
     display: flex;
+    align-items: center;
     gap: 115px;
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-weight: 600;
     font-size: 16px ;
     color: var(--dark-text);
-    margin-right: 170px;
+    margin-right: 165px;
+    width: 580px;
 }
 .nav-items:hover{
-    color: var(--hover-color);
+    color: var(--decorative-color);
+    cursor: pointer;
 }
-.top{
-    height: 620px;
-    background-image: url(./img/Rectangle\ 48.png);
+.article{ 
+    height: 619px;
+    background-image: url(./img/background.png);
+    width: 1440px;
     text-align: center;
     padding-top: 70px;
     color: var(--white-text);
 }
-.top h4{
-    font-family: Montserrat;
+.top-p{
+    font-family: "Montserrat";
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 0px;
 }
-.top h2{
-    font-family: Poppins;
+.article h1{
+    font-family: "Poppins";
     font-size: 58px;
     font-weight: 700;
     line-height: 75px;
     margin: 0;
 }
-.top p{
-    font-family: Montserrat;
+.down-p{
+    font-family: "Montserrat";
     font-size: 24px;
     font-weight: 500;
 }
-.buttons-top{
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    margin-top: 70px;
-    margin-bottom: 300px;
-}
 .butt-top-el{ 
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-size: 24px;
     font-weight: 700;
     color: var(--white-text);
-    background-color: var(--hover-color);
-    border: none;
-    border-radius: 25px;
-    padding: 16px 0px;
+    background-color: inherit;
+    border:1px solid var(--white-text);
+    border-radius: 30px;
     width: 236px;
-    height: 68px;
+    height: 68px; 
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-bottom: 300px;
+}
+.butt-top-el:hover{
+    background-color: var(--decorative-color);
+    border: none;
+}
+
+.main-content{
+    margin-top: 54px;
+}
+.content-article{
+    font-family: "Poppins";
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 74px;
+}
+.content-item{
+    display: flex;
+    justify-content: baseline;
+}
+.text-content{
+    font-family: "Montserrat";
+    align-self: center;
+}
+.decorative-p{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--decorative-color);
+    line-height: 20px;
+}
+.content-h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--dark-text);
+}
+.content-p{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--grey-text);
+    line-height: 40px;
+}
+.content-item:nth-child(2n){
+    flex-direction: row-reverse;
+}
+.content-item:nth-child(2n) .text-content{
+    margin-right: 288px;
+}
+.content-item:nth-child(2n+1) .text-content{
+    margin-left: 288px;
 }
