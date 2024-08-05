@@ -1,0 +1,91 @@
+ul {
+  list-style: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 905px;
+  margin: 0 auto;
+}
+
+.topic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+  margin: 75px 0 95px;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.topic-el {
+  color: #7D7D7D;
+}
+.topic-el:hover {
+  color: #03A9F4;
+}
+
+.card-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 130px;
+  -webkit-column-gap: 63px;
+     -moz-column-gap: 63px;
+          column-gap: 63px;
+}
+
+.content-el {
+  width: 420px;
+  height: 550px;
+}
+
+.article {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 14px;
+  color: #B4AD9E;
+  padding-top: 65px;
+}
+
+.content-el h2 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 30px;
+  color: #626262;
+}
+
+.content-el p {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+}
+
+.main-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 115px;
+  margin-bottom: 70px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+  background-color: #FFFFFF;
+  border: 1px solid #626262;
+  padding: 30px 50px;
+}
+.main-button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,82 @@
+ $first-color:#626262;
+ $second-color: #7D7D7D;
+ $decorative: #B4AD9E;
+ $hover-color: #03A9F4;
+ ul{
+    list-style: none;
+    padding-inline-start:0px;
+ }
+ a{
+    text-decoration: none;
+ }
+ .container{
+    max-width: 905px;
+    margin: 0 auto;
+ }
+ .topic{ 
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 75px 0 95px;
+
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    font-weight: 400px;
+}
+.topic-el{
+    color: $second-color;
+    &:hover{
+        color:$hover-color ;
+    }
+}
+.card-ul{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 130px;
+    column-gap: 63px;  
+}
+.content-el{
+    width: 420px;
+    height: 550px;
+}
+.article{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-size: 14px;
+    color: $decorative;
+    padding-top: 65px;
+}
+.content-el{
+    h2{
+        font-family: 'Playfair Display'; 
+        font-weight: 400;
+        font-size: 30px;
+        color:$first-color;
+    }
+}
+.content-el{
+    p{
+        font-family: 'Playfair Display'; 
+        font-weight: 400;
+        font-size: 14px;
+        color:$first-color;
+    }
+}
+.main-button{ 
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    margin-bottom:70px ;
+
+    font-family: 'Playfair Display'; 
+    font-weight: 400;
+    font-size: 14px;
+    color:$first-color;
+    background-color: #FFFFFF;
+    border: 1px solid $first-color;
+    padding: 30px 50px;
+    &:hover{
+        cursor: pointer;
+    }
+   
+}
