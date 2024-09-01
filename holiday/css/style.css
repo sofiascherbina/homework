@@ -1,0 +1,128 @@
+.background {
+  background-image: url(/img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 135px;
+}
+
+.header-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 320px) {
+  .header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.header-div_it {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  width: 90px;
+  height: 36px;
+  border-radius: 30px;
+  border: none;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 110px;
+  text-align: center;
+  background-color: inherit;
+  color: #FFFFFF;
+}
+.header-div_it:hover {
+  border: solid 2px #FFFFFF;
+}
+
+.logo {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero_title {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero_text {
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  width: 247px;
+  margin: auto;
+  color: #FFFFFF;
+}
+
+.main-butt {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  width: 280px;
+  height: 40px;
+  border-radius: 30px;
+  display: block;
+  margin: 20px auto;
+  background-color: #FF4E50;
+  color: #FFFFFF;
+  border: none;
+}
+
+.main-container {
+  padding-top: 60px;
+}
+.main-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-title {
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+}
+
+.candidates {
+  padding: 0;
+}
+.candidates_it {
+  width: 194px;
+  margin: auto;
+}
+.candidates_it h4 {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+}
+.candidates_it p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #666666;
+}
+
+li {
+  list-style-type: none;
+}/*# sourceMappingURL=style.css.map */

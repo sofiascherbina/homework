@@ -1,0 +1,64 @@
+.hero_title{
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: $white-colour;
+}
+.hero_text{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    width: 247px;
+    margin: auto;
+    color: $white-colour;
+}
+.main-butt{
+    @include btn-styles();
+    display: block;
+    margin:20px auto;
+    background-color: $btn-colour;
+    color: $white-colour;
+    border: none;
+}
+.main-container{
+    padding-top: 60px;
+& img{
+    display: block;
+    margin: 0 auto;
+}
+}
+.main-title{
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 700;
+    color: $dark;
+    text-align: center; 
+}
+.candidates{
+    padding: 0;
+&_it{
+    width: 194px;
+    margin: auto;
+& h4{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: $dark;
+}
+& p{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: $soft-dark;
+}
+}
+}
+.img-decor-svg{
+    width: 100px;
+    height: 100px;
+    fill: aqua;
+}
