@@ -4,6 +4,9 @@
     font-weight: 700;
     text-align: center;
     color: $white-colour;
+    @media screen and (min-width:768px){
+        font-size: 52.05px;
+    }
 }
 .hero_text{
     font-family: "Roboto";
@@ -13,6 +16,10 @@
     width: 247px;
     margin: auto;
     color: $white-colour;
+    @media screen and (min-width:768px){
+        font-size:24px;
+        width: auto;
+    }
 }
 .main-butt{
     @include btn-styles();
@@ -21,6 +28,19 @@
     background-color: $btn-colour;
     color: $white-colour;
     border: none;
+&-second{
+    margin-top: 28px;
+    background-color: $white-colour;
+    border: 2px solid $btn-colour;
+    color: $btn-colour;
+    @media screen and (min-width:768px){
+        @include btn-styles($width:195px, $height:42px);
+    }
+}
+@media screen and (min-width:768px){
+    @include btn-styles($width:228px, $height:42px);
+    margin-top: 55px;
+}
 }
 .main-container{
     padding-top: 60px;
@@ -35,18 +55,33 @@
     font-weight: 700;
     color: $dark;
     text-align: center; 
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 .candidates{
     padding: 0;
+    @media screen and (min-width:768px){
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 470px;
+        height: 470px;
+        margin:0 auto;
+    }
 &_it{
     width: 194px;
-    margin: auto;
+    margin: 0 auto;
+    @media screen and (min-width:768px){
+        width: calc((100% - 40px)/2);
+    }
 & h4{
     font-family: "Montserrat";
     font-size: 14px;
     font-weight: 700;
     text-align: center;
     color: $dark;
+    margin: 9px 0 16px;
 }
 & p{
     font-family: "Roboto";
@@ -54,11 +89,40 @@
     font-weight: 300;
     text-align: center;
     color: $soft-dark;
+    margin: 0;
 }
+&_pic{
+    position: relative;
+}
+}
+}
+.svg-div{
+    width: 36px;
+    height: 35px;
+    padding-top: 7px;
+    border: solid 4px $white-colour;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+&-pink{
+    background-color: $btn-colour;
+}
+&-yellow{
+    background-color: #FFA507;
+}
+&-green{
+    background-color: #1CD7AD;
+}
+&-blue{
+    background-color: #4E73DB;
 }
 }
 .img-decor-svg{
-    width: 100px;
-    height: 100px;
-    fill: aqua;
+    display: block;
+    width: 16px;
+    height: 15px;
+    fill:$white-colour;
+    margin: 0px auto;
 }
