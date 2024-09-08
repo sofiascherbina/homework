@@ -1,0 +1,18 @@
+.main-button{ 
+    display: block;
+    margin: 0 auto;
+    margin-top: 115px;
+    margin-bottom:70px ;
+
+    @include text-font();
+    // font-family: 'Playfair Display'; 
+    // font-weight: 400;
+    // font-size: 14px;
+    @extend %txt-li;
+    background-color: #FFFFFF;
+    border: 1px solid $first-color;
+    padding: 30px 50px;
+    &:hover{
+        cursor: pointer;
+    }
+}

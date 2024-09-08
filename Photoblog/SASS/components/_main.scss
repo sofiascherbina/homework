@@ -1,0 +1,33 @@
+ .card-ul{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 130px;
+    column-gap: 50px;
+    padding: 0;
+}
+@media screen and (max-width:919px) {
+    .container{
+        width: 420px;
+        margin: auto;
+}
+}
+.card-ul_el{
+    width: 420px;
+    height: 550px;
+}
+.article{
+    @include text-font($font-family:'Ubuntu',$font-weight:300 );
+    color: $decorative;
+    padding-top: 65px;
+}
+.card-ul_el{
+& h2{
+    @extend %txt-li;
+    @include text-font( $font-size:30px);
+    }
+}
+.lorem{
+    @extend %txt-li;
+    @include text-font();
+    }
+

@@ -1,0 +1,9 @@
+// .img2{
+//     width: 300px;
+//     height: 300px;
+// }
+@each $diary in img1 , img2, img3 {
+   #{$diary}-pic{
+    background-image: url("/img/#{$diary}.png");
+   }
+}
