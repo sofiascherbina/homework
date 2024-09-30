@@ -5,7 +5,7 @@
     --grey-text:#737373;
 }
 .container{
-    width: 1440px;
+    width: 1180px;
     margin: 0 auto;
 }
 a{
@@ -43,7 +43,9 @@ ul{
 .article{ 
     height: 619px;
     background-image: url(./img/background-top.png);
-    width: 1440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
     text-align: center;
     padding-top: 70px;
     color: var(--white-text);
@@ -102,6 +104,7 @@ ul{
 .text-content{
     font-family: "Montserrat";
     align-self: center;
+    width: 568px;
 }
 .decorative-p{
     font-size: 24px;
@@ -129,21 +132,23 @@ ul{
 .content-item:nth-child(2n+1) .text-content{
     margin-left: 288px;
 }
-.bottom{
+/* .bottom{
     font-family:  "Montserrat";
     text-align: center;
     color: var(--white-text);
     background-image: url(./img/background-bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 509px;
     padding-top: 125px;
     margin-top: 190px;
     margin-bottom: 75px;
-}
-.bottom > h2{
+} */
+/* .bottom > h2{
     font-size: 40px;
     font-weight: 700;
-}
-.bottom-button{
+} */
+/* .bottom-button{
     font-family: "Montserrat";
     font-size: 16px;
     font-weight: 700;
@@ -153,26 +158,25 @@ ul{
     border: 1px solid var(--white-text);
     border-radius: 10px;
     margin-top: 48px;
-}
-.bottom-button:last-child{
+} */
+/* .bottom-button:last-child{
     width: 175px;
-}
-.bottom-button:nth-child(2n+1){
+} */
+/* .bottom-button:nth-child(2n+1){
     width: 142px;
     margin-right: 15px;
-}
-footer .address{
+} */
+/* footer .address{
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 700;
     color: #5C5C5C;
-}
-.footer-el{
+} */
+/* .footer-el{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:  1440px;
     padding-top: 36px;
     padding-bottom: 31px;
     margin-bottom: 25px;
-}
+} */

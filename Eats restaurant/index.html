@@ -6,6 +6,7 @@
     <title>Eats restaurant</title>
     <link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body> 
@@ -23,14 +24,16 @@
         </div>
     </header>
     <main>
-        <div class="container">
             <div class="article">
+                <div class="container">
                     <p class="top-p">Restaurant app</p>
                     <h1>Why stay hungry when <br>you can order form Eats </h1>
                     <p class="down-p">Order in exchange for hunger</p>
                     <button class="butt-top-el" type="button">Delivery</button>
                     <button class="butt-top-el" type="button">Menu</button>
             </div>
+        </div>
+        <div class="container">
             <section class="main-content">
                 <h2 class="content-article">How the app works</h2>
                 <ul class="content-ul">
@@ -49,24 +52,29 @@
                             <h2 class="content-h2">Shop for your favorites<br> meal as e dey hot.</h2>
                             <p class="content-p">Shop for your favorite meals or drinks<br> and enjoy while doing it.</p>
                         </div>
+                    </div>
                     </li>
                 </ul>
             </section>
-            <div class="bottom">
-                <h2>Order now.</h2>
-                <p class="down-p">Available on your favorite store. Start your premium experience now</p>
-                <button class="bottom-button">Playstore</button>
-                <button class="bottom-button">App store</button>
+            <div class="pt-5 my-4 text-center" style="font-family: Montserrat; background-image: url(./img/background-bottom.png); background-repeat:no-repeat; background-size: cover; height: 509px;">
+                <div class="container">
+                <h2 class="text-center fw-bolder mt-5 mb-3 text-light" style="font-size: 40px;">Order now.</h2>
+                <p class=" text-center text-light fw-medium" style="font-size: 24px;">Available on your favorite store. Start your premium experience now</p>
+                <button class="bottom-button mt-3 mr-5 text-light fw-bolder bg-transparent border border-1 border-light rounded-3" style="font-family:Montserrat; font-size: 16px;  height: 62px;  width: 142px;">Playstore</button>
+                <button class="bottom-button mt-3 ml-5 text-light fw-bolder bg-transparent border border-1 border-light rounded-3" style="font-family:Montserrat; font-size: 16px;  height: 62px;  width: 175px;">App store</button>
             </div>
-        </div>
+            </div>
     </main>
     <footer>
         <div class="container">
-            <div class="footer-el">
+            <div class="d-flex justify-content-between align-items-center py-3 mb-2">
                 <img class="logo" src="./img/логотип скачать.svg" width="150px" height="65px">
-                <a href="#" class="address">Copywright 2020 Bella Onojie.com</a>    
-            </div>
+                <a href="#" class=" fw-bolder link-secondary" style=" font-family: Roboto; font-size: 12px;">Copywright 2020 Bella Onojie.com</a>    
+            
         </div>
+    </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
